@@ -1,0 +1,44 @@
+[
+    {
+        "id": "625b9b78ce9b5d8978847b7c",
+        "img": "http://placehold.it/32x32",
+        "service": "Aurora",
+        "service_info": "Ipsum fugiat magna ea veniam aliquip sint ea cillum excepteur proident laborum cupidatat non. Excepteur duis enim sint ut ut quis cillum. Sint ex laboris consectetur et ad veniam nulla aliquip nisi eiusmod tempor deserunt ex laboris.\r\n",
+        "fee": "$1,020.29"
+    },
+    {
+        "id": "625b9b78c20b3191704f179a",
+        "img": "http://placehold.it/32x32",
+        "service": "Sharon",
+        "service_info": "Aliquip veniam quis fugiat id duis fugiat esse sit. Elit in fugiat sit quis duis nisi. Anim eiusmod in minim aute velit ullamco.\r\n",
+        "fee": "$2,747.29"
+    },
+    {
+        "id": "625b9b781ed0e7c08388d193",
+        "img": "http://placehold.it/32x32",
+        "service": "Park",
+        "service_info": "Cillum duis ex aute ad elit consequat irure. Incididunt labore officia dolore esse eu voluptate tempor nisi nulla aute. Eu cupidatat deserunt aliquip consequat culpa fugiat exercitation deserunt reprehenderit excepteur nostrud dolor. Mollit cupidatat anim amet pariatur qui cillum.\r\n",
+        "fee": "$3,206.36"
+    },
+    {
+        "id": "625b9b7894d999129f39aa81",
+        "img": "http://placehold.it/32x32",
+        "service": "Myrtle",
+        "service_info": "Amet ex eiusmod anim ea Lorem id aliqua amet excepteur elit consectetur qui nisi enim. Anim ea id eiusmod aute proident dolor deserunt eu fugiat excepteur fugiat dolore aute. Exercitation dolor nulla fugiat reprehenderit aliqua officia veniam consequat ullamco incididunt.\r\n",
+        "fee": "$2,814.94"
+    },
+    {
+        "id": "625b9b783529ed96b46871da",
+        "img": "http://placehold.it/32x32",
+        "service": "Best",
+        "service_info": "Mollit tempor cupidatat enim ipsum non culpa enim non in labore ut proident. Id tempor tempor minim irure duis sit ad sint officia occaecat incididunt. Laborum eu incididunt elit non officia voluptate magna eu qui commodo enim nostrud adipisicing voluptate. Nulla enim eu Lorem ad magna culpa commodo dolore dolor amet. Consequat elit mollit sint anim veniam do amet ad ut tempor. Sint id exercitation cupidatat reprehenderit veniam ipsum.\r\n",
+        "fee": "$3,652.32"
+    },
+    {
+        "id": "625b9b788976de7bd73978d7",
+        "img": "http://placehold.it/32x32",
+        "service": "Blanca",
+        "service_info": "Voluptate magna nisi pariatur consectetur nisi laboris esse aliquip cupidatat minim duis tempor sit. Eu laboris voluptate sint ut in aute ipsum consequat velit ullamco. Sit mollit sit amet laborum occaecat. Proident consequat excepteur incididunt et voluptate nulla incididunt enim ad laborum. Occaecat ullamco occaecat labore fugiat aute. Veniam consectetur commodo ut amet enim do eiusmod exercitation proident non aute nisi officia. Sint cillum enim cupidatat incididunt labore tempor ad do proident veniam dolor incididunt irure amet.\r\n",
+        "fee": "$2,746.66"
+    }
+]

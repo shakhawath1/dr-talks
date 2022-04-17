@@ -1,25 +1,41 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth'
-import auth from './firebase.init';
+import Header from './Pages/Shared/Header/Header';
+import Footer from './Pages/Shared/Footer/Footer';
+import Home from './Pages/Home/Home';
+import Blogs from './Pages/Blogs/Blogs';
+import About from './Pages/About/About';
+import Login from './Pages/Login/Login/Login';
+import Register from './Pages/Login/Register/Register';
+import RequirAuth from './Pages/Login/RequirAuth/RequirAuth';
+import Checkout from './Pages/Checkout/Checkout';
+import NotFound from './Pages/Shared/NotFound/NotFound'
 
-// const auth = getAuth(app);
+
+
 
 
 function App() {
 
-  const provider = new GoogleAuthProvider();
 
-  const handleGoogleSignIn = () => {
-    signInWithPopup(auth, provider)
-      .then(result => {
-        console.log(result.user);
-      })
-  }
   return (
 
-
     <div className="App">
-      <button onClick={handleGoogleSignIn}>Google</button>
+      <Header></Header>
+      <Routes>
+        <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
+        <Route path='/about' element={<About></About>}></Route>
+        <Route path='/login' element={<Login></Login>}></Route>
+        <Route path='/register' element={<Register></Register>}></Route>
+        <Route path='/checkout' element={
+          <RequirAuth>
+            <Checkout></Checkout>
+          </RequirAuth>
+        }></Route>
+        <Route path='*' element={<NotFound></NotFound>}></Route>
+      </Routes>
+      <Footer></Footer>
     </div>
   );
 }
