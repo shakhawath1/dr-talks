@@ -1,24 +1,30 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import logo from '../../../images/logo.png'
 
 const Header = () => {
     return (
-        <>
-            <Navbar bg="light" variant="light">
-                <Container>
-                    <Navbar.Brand href="#home">
-                        <img className='w-50' src={logo} alt="" />
-                    </Navbar.Brand>
+        <Navbar bg="light" expand="lg">
+            <Container>
+                <Navbar.Brand href="#home">
+                    <img className='w-50' src={logo} alt="" />
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="home/#bogs">Blogs</Nav.Link>
-                        <Nav.Link href="home/#about">About me</Nav.Link>
+                        <Nav.Link as={Link} to="home">Home</Nav.Link>
+                        <Nav.Link as={Link} to="blogs">Blogs</Nav.Link>
+                        <Nav.Link as={Link} to="about">About me</Nav.Link>
+                        <Nav.Link as={Link} to="login">Login</Nav.Link>
                     </Nav>
-                </Container>
-            </Navbar>
-        </>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
     );
 };
 
 export default Header;
+
+
+
