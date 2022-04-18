@@ -2,23 +2,28 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 
-const Service = ({ serviced }) => {
-    console.log(serviced)
-    const { img, service } = serviced;
+const Service = ({ service }) => {
+
+    const { img, serviceName, service_info } = service;
     const navigate = useNavigate();
 
-    const navigateToCheckout = service => {
-        navigate(`/checkout/${service}`);
+    const navigateToCheckout = serviceName => {
+        navigate(`/checkout/${serviceName}`);
     }
     return (
+        <div class="col">
+            <div class="card h-100">
+                <img src={img} class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">{serviceName}</h5>
+                    <p class="card-text">{service_info}</p>
+                </div>
 
-        <div>
+                <button onClick={() => navigateToCheckout(serviceName)} className='btn btn-primary'>Checkout</button>
 
-            <img src={img} alt="" />
-            <h5>{service}</h5>
-            <h6>Id: </h6>
-            <button onClick={() => navigateToCheckout(service)} className='btn btn-primary'>Checkout</button>
+            </div>
         </div>
     );
 };
 export default Service;
+

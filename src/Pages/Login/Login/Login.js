@@ -16,6 +16,8 @@ const Login = () => {
 
     let from = location.state?.from?.pathname || "/";
     let errorElement;
+
+    // signin with email and password 
     const [
         signInWithEmailAndPassword,
         user,
@@ -23,6 +25,7 @@ const Login = () => {
         error,
     ] = useSignInWithEmailAndPassword(auth);
 
+    // password reset methode 
     const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
 
     if (loading || sending) {
@@ -33,10 +36,12 @@ const Login = () => {
         navigate(from, { replace: true });
     }
 
+    // error handling
     if (error) {
         errorElement = <p className='text-danger'>Error: {error?.message}</p>
     }
 
+    // handle submit methode 
     const handleSubmit = event => {
         event.preventDefault();
         const email = emailRef.current.value;
@@ -48,7 +53,7 @@ const Login = () => {
     const navigateRegister = event => {
         navigate('/register');
     }
-
+    //  handle password reset methode 
     const resetPassword = async () => {
         const email = emailRef.current.value;
         if (email) {
@@ -80,6 +85,8 @@ const Login = () => {
 
             {/* social login options */}
             <SocialLogin></SocialLogin>
+
+            {/* password reset toast  */}
             <ToastContainer />
         </div>
     );
