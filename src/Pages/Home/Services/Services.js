@@ -13,7 +13,7 @@ const Services = () => {
         <div>
 
             {
-                services.map(service => <Service service={service}></Service>)
+                services.map(service => <Service serviced={service}></Service>)
             }
         </div>
     );

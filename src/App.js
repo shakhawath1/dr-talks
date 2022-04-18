@@ -7,9 +7,9 @@ import Blogs from './Pages/Blogs/Blogs';
 import About from './Pages/About/About';
 import Login from './Pages/Login/Login/Login';
 import Register from './Pages/Login/Register/Register';
-import RequirAuth from './Pages/Login/RequirAuth/RequirAuth';
 import Checkout from './Pages/Checkout/Checkout';
 import NotFound from './Pages/Shared/NotFound/NotFound'
+import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
 
 
 
@@ -29,10 +29,10 @@ function App() {
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
-        <Route path='/checkout' element={
-          <RequirAuth>
+        <Route path='/checkout/:serviceId' element={
+          <RequireAuth>
             <Checkout></Checkout>
-          </RequirAuth>
+          </RequireAuth>
         }></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
