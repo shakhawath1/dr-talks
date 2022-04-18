@@ -2,10 +2,10 @@
 
 
 
-## dr.TALKS.](https://incandescent-kashata-38b6e2.netlify.app/)
+## dr.TALKS.](https://dr-talks.web.app/)
 
 
-[https://incandescent-kashata-38b6e2.netlify.app/](https://incandescent-kashata-38b6e2.netlify.app/)
+[https://dr-talks.web.app/](https://dr-talks.web.app/)
 
 
 ### About this site:
