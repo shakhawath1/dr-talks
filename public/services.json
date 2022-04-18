@@ -1,44 +1,37 @@
 [
     {
         "id": "625b9b78ce9b5d8978847b7c",
-        "img": "https://5.imimg.com/data5/IG/MN/GLADMIN-8368893/doctors-service-500x500.png",
-        "serviceName": "Aurora",
-        "service_info": "Ipsum fugiat magna ea veniam aliquip sint ea cillum excepteur proident laborum cupidatat non. Excepteur duis enim sint ut ut quis cillum. Sint ex laboris consectetur et ad veniam nulla aliquip nisi eiusmod tempor deserunt ex laboris.\r\n",
-        "fee": "$1,020.29"
+        "img": "https://images.theconversation.com/files/369567/original/file-20201116-23-18wlnv.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1356&h=668&fit=crop",
+        "serviceName": "Primary Treatment",
+        "service_info": "Good advice is provided for any ailment. Treatment is provided with intensive care.",
+        "fee": "$250.00"
     },
     {
         "id": "625b9b78c20b3191704f179a",
-        "img": "https://5.imimg.com/data5/IG/MN/GLADMIN-8368893/doctors-service-500x500.png",
-        "serviceName": "Sharon",
-        "service_info": "Aliquip veniam quis fugiat id duis fugiat esse sit. Elit in fugiat sit quis duis nisi. Anim eiusmod in minim aute velit ullamco.\r\n",
-        "fee": "$2,747.29"
-    },
-    {
-        "id": "625b9b781ed0e7c08388d193",
-        "img": "https://5.imimg.com/data5/IG/MN/GLADMIN-8368893/doctors-service-500x500.png",
-        "serviceName": "Park",
-        "service_info": "Cillum duis ex aute ad elit consequat irure. Incididunt labore officia dolore esse eu voluptate tempor nisi nulla aute. Eu cupidatat deserunt aliquip consequat culpa fugiat exercitation deserunt reprehenderit excepteur nostrud dolor. Mollit cupidatat anim amet pariatur qui cillum.\r\n",
-        "fee": "$3,206.36"
+        "img": "https://2rdnmg1qbg403gumla1v9i2h-wpengine.netdna-ssl.com/wp-content/uploads/sites/3/2015/05/cysticDiagnosis-1248216538-770x553-1-650x428.jpg",
+        "serviceName": "Lung Disease",
+        "service_info": "Renowned soctor for lung siseases. More than 15 years experience.",
+        "fee": "$400.00"
     },
     {
         "id": "625b9b7894d999129f39aa81",
-        "img": "https://5.imimg.com/data5/IG/MN/GLADMIN-8368893/doctors-service-500x500.png",
-        "serviceName": "Myrtle",
-        "service_info": "Amet ex eiusmod anim ea Lorem id aliqua amet excepteur elit consectetur qui nisi enim. Anim ea id eiusmod aute proident dolor deserunt eu fugiat excepteur fugiat dolore aute. Exercitation dolor nulla fugiat reprehenderit aliqua officia veniam consequat ullamco incididunt.\r\n",
-        "fee": "$2,814.94"
+        "img": "https://www.news-medical.net/image.axd?picture=Upper%20body%20human%20anatomy%20model%20CROPPED%20-%20Tinydevil_thumb.jpg",
+        "serviceName": "Thoracic Surgery",
+        "service_info": "Repair of organs located in the thorax, or chest. The thoracic cavity lies between the neck and the diaphragm, and contains the heart and lungs (cardiopulmonary system), the esophagus, trachea, pleura, mediastinum, chest wall, and diaphragm.Thoracic surgery repairs diseased or injured organs and tissues in the thoracic cavity.",
+        "fee": "$1350.00"
     },
     {
         "id": "625b9b783529ed96b46871da",
-        "img": "https://5.imimg.com/data5/IG/MN/GLADMIN-8368893/doctors-service-500x500.png",
-        "serviceName": "Best",
-        "service_info": "Mollit tempor cupidatat enim ipsum non culpa enim non in labore ut proident. Id tempor tempor minim irure duis sit ad sint officia occaecat incididunt. Laborum eu incididunt elit non officia voluptate magna eu qui commodo enim nostrud adipisicing voluptate. Nulla enim eu Lorem ad magna culpa commodo dolore dolor amet. Consequat elit mollit sint anim veniam do amet ad ut tempor. Sint id exercitation cupidatat reprehenderit veniam ipsum.\r\n",
-        "fee": "$3,652.32"
+        "img": "https://rsm-media-cdn-live.azureedge.net/cache/a/c/8/7/1/f/ac871fc2f46f3b9608c54eeb238c10edf86a9425.jpg",
+        "serviceName": "Lung Surgery",
+        "service_info": "More than 10 years of experience in Lung surgery. More than 750 lung surgery successfully held.",
+        "fee": "$1500.00"
     },
     {
         "id": "625b9b788976de7bd73978d7",
-        "img": "https://5.imimg.com/data5/IG/MN/GLADMIN-8368893/doctors-service-500x500.png",
-        "serviceName": "Blanca",
-        "service_info": "Voluptate magna nisi pariatur consectetur nisi laboris esse aliquip cupidatat minim duis tempor sit. Eu laboris voluptate sint ut in aute ipsum consequat velit ullamco. Sit mollit sit amet laborum occaecat. Proident consequat excepteur incididunt et voluptate nulla incididunt enim ad laborum. Occaecat ullamco occaecat labore fugiat aute. Veniam consectetur commodo ut amet enim do eiusmod exercitation proident non aute nisi officia. Sint cillum enim cupidatat incididunt labore tempor ad do proident veniam dolor incididunt irure amet.\r\n",
-        "fee": "$2,746.66"
+        "img": "https://media.istockphoto.com/photos/surgery-robot-in-operation-room-picture-id1215416571?k=20&m=1215416571&s=612x612&w=0&h=abad0hPEysUe_XezbCgPbDzGayNz9ovsfoARJisRB98=",
+        "serviceName": "Robotic Surgery",
+        "service_info": "Special trained on robotic surgeon of thoracic and lung surgery from India. 7 years of experience in robotic surgery.",
+        "fee": "$1200.00"
     }
 ]
