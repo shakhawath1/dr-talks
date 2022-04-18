@@ -25,9 +25,13 @@ const Register = () => {
     const navigateLogin = () => {
         navigate('/login');
     }
+    let errorElement;
 
     if (loading || updating) {
         return <Loading></Loading>
+    }
+    if (error || updateError) {
+        errorElement = <p className='text-danger'>Error: {error?.message} {updateError?.message} </p>
     }
 
     if (user) {
@@ -66,7 +70,7 @@ const Register = () => {
                     Register
                 </Button>
             </Form>
-
+            {errorElement}
             <p>Already have an account? <Link to="/login" className='text-primary pe-auto text-decoration-none' onClick={navigateLogin}>Please Login</Link> </p>
             <SocialLogin></SocialLogin>
 
