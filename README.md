@@ -2,7 +2,7 @@
 
 
 
-## [Dr.TALKS.](https://dr-talks.web.app/)
+## [Dr.TALKS](https://dr-talks.web.app/)
 
 
 [https://dr-talks.web.app/](https://dr-talks.web.app/)
